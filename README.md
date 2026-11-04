@@ -64,5 +64,4 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Google Colab / Jupyter Not
 
 ## Author
 **Muhammed Nihad TP**
-Aspiring Data Analyst / Data Scientist
 LinkedIn:www.linkedin.com/in/muhammed-nihad-tpy
