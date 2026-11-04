@@ -32,16 +32,27 @@ Key columns: order date, ship date, customer name, city, segment, category, sub-
 - Sales vs profit (scatter plot)
 
 ## Key Insights
-- [Insight 1, e.g. "Category X generated the highest sales of ___"]
-- [Insight 2, e.g. "Segment X contributed the most revenue"]
-- [Insight 3, e.g. "Sales peaked in [month]"]
-- [Insight 4, e.g. "Profit has outliers, suggesting unusual transactions"]
+- **Technology is the top category**, with roughly 2.7M in total sales, followed by Furniture at about 2.4M. Office Supplies is far behind at around 0.3M.
+- **Business Laptop is the best-selling product**, with over 900K in sales. The Adjustable Standing Desk and Ergonomic Office Chair follow at about 630K and 620K, so sales are driven by a few high-priced Technology and Furniture items.
+- **Sales peaked in December 2023 at about 250K**, then dropped sharply to about 90K in January 2024. A smaller year-end rise and January drop repeat in 2024-2025, which suggests seasonality.
+- **Sales ended 2025 strong**, recovering from a mid-year dip to about 188K in December 2025.
+- **Sales is the strongest driver of profit** (correlation 0.82), followed by quantity (0.39) and unit selling price (0.38).
+- **Discount and shipping cost show almost no linear relationship with profit** (around 0), so profit is driven mainly by what is sold and in what volume.
+- **Unit cost and unit selling price are almost perfectly correlated** (0.99), which shows prices are set as a consistent markup over cost.
 
 ## Sample Visuals
-![Correlation Heatmap](images/correlation_heatmap.png)
-![Sales by Category](images/sales_by_category.png)
-![Monthly Sales Trend](images/monthly_sales_trend.png)
 
+### Correlation Heatmap
+![Correlation Heatmap](images/heatmap.png)
+
+### Total Sales by Category
+![Sales by Category](images/Sales_by_Category.png)
+
+### Monthly Sales Trend
+![Monthly Sales Trend](images/mothly_sales.png)
+
+### Top 10 Products by Sales
+![Top 10 Products by Sales](images/product_by_sales.png)
 ## Tools Used
 Python · Pandas · NumPy · Matplotlib · Seaborn · Google Colab / Jupyter Notebook
 
