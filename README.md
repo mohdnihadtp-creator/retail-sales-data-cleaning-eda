@@ -46,7 +46,7 @@ Key columns: order date, ship date, customer name, city, segment, category, sub-
 ![Correlation Heatmap](images/heatmap.png)
 
 ### Total Sales by Category
-![Sales by Category](images/Sales_by_Category(1).png)
+![Sales by Category](images/Sales_by_Category (1).png)
 
 ### Monthly Sales Trend
 ![Monthly Sales Trend](images/mothly_sales.png)
